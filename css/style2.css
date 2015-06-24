@@ -1,0 +1,275 @@
+  *{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'andale mono';
+	color:white;
+}
+body{
+	background-color: #000;
+}
+input textarea{
+	color: #000;
+}
+span{
+	color:#000;
+}
+/*============ navigation =============*/
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: #0099ff;
+}
+.navbar-nav>li>a:hover{
+	background-color: #0099ff;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+	background-color: #0099ff;
+}
+.navbar-inverse{
+	background-color: #000;
+}
+/*============ call us =============*/
+.blue-header{
+	position: absolute;
+	margin-top: -50px;
+	height: 50px;
+	width: 100%;
+	background-color: #0099ff;
+	opacity: .5;
+	z-index: 10;
+}
+.content-o h2{
+	position: absolute;
+	margin-top: -50px;
+	line-height: 50px;
+	margin-left: 35%;
+	z-index: 12;
+}
+.content-o h2 a{
+	color: #fff;
+}
+/*============ Miami beach rental car usa =============*/
+.mbrcu{
+	margin-top: 30px;
+	font-size: 55px;
+	text-align: center;
+}
+.header2{
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+/*======== vehicle-page =======================*/
+.reservation{
+	margin-top: 20px;
+}
+.reservation label{
+	width: 170px;
+}
+.vehicle-img img{
+	margin-top: 20px;
+	width: 400px;
+	border-radius: 10px;
+}
+.field{
+	display: block;
+	margin-top: 20px;
+	float: left;
+	font-size: 12px;
+}
+.field option{
+	color:black;
+}
+.field input{
+	color:black;
+}
+.size{
+	width: 200px;
+	height: 50px;
+}
+.clear{
+	clear: both;
+}
+	/*=== second block ===*/
+.info h3{
+	display: block;
+	background-color: #0099ff;
+	text-align: center;
+}
+.submit input{
+	width: 100%;
+	color: #000;
+}
+.submit label{
+	width: 100%;
+}
+.submit textarea{
+	color:#000;
+}
+.send{
+	width: 600px;
+	height: 100px;
+}
+	/*=== yacht ===*/
+.text{
+	margin-top: 20px;
+	line-height: 30px;
+	font-size: 18px;
+}	
+	/*=== contact-text ===*/
+.contact-text{
+	margin-top: 20px;
+	line-height: 30px;
+}
+/*======== cars first & second block =========*/
+
+.car-box{
+	margin-top: 40px;
+	height: 336px;
+	width: 234px;
+	background-color: #ffffff;
+	color: #000;
+	text-align: center;
+	/*float: left;*/
+}
+.car-box h3{
+	margin-top: 15px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+}
+.car-box input{
+	margin-top: 12px;
+}
+.car-box a{
+	color:#000;
+}
+.boton{
+	height: 40px;
+	width: 120px;
+	font-size: 18px;
+	background-color: #0099ff;
+	border-radius: 10px;
+}
+.bottom-line{
+	margin-top: 35px;
+	height: 65px;
+	background-color: #cccccc;
+}
+.price{
+	text-align: left;
+	padding: 10px 10px;
+	color: #000;
+}
+.day{
+	text-align: left;
+	padding-left: 10px;
+	color: #000;
+}
+.day p{
+	position: absolute;
+	margin-top: -18px;
+	margin-left: 120px;
+	color: #000;
+}
+/*===== yacht block =====*/
+.yacht{
+	/*height: 340px;*/
+	margin-top: 50px;
+}
+.yacht-text{
+	text-align: left;
+	line-height: 20px;
+}
+.yacht-video iframe{
+	width:480px;
+	height:235px;
+}
+/*===== footer =====*/
+.footer{
+	border-bottom: 3px solid #0099ff;
+	border-top: 3px solid #0099ff;
+	
+}
+.footer h1{
+	text-align: center;
+}
+.footer p{
+	margin-top: 30px;
+}
+.footer a{
+	color: #0099ff;
+}
+
+/*========= media query ==========*/
+
+@media only screen and (min-width: 250px) and (max-width: 767px){
+	
+/*============ call us =============*/	
+	.content-o h2{
+	font-size: 18px;
+	line-height: 40px;
+	margin-left: 20%;
+	margin-top: -38px;
+
+	}
+	.blue-header{
+		position: absolute;
+		margin-top: -40px;
+		height: 40px;
+		width: 100%;
+		background-color: #0099ff;
+		opacity: .5;
+		z-index: 10;
+	}
+/*============ Miami beach rental car usa =============*/
+.mbrcu{
+	margin-top: 10px;
+	font-size: 35px;
+	text-align: center;
+}
+.header2{
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+/*======== vehicle-page =======================*/
+
+.reservation input{
+	width: 140px;
+}
+.vehicle-img{
+	width: 335px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vehicle-img img{
+	width: 300px;
+}
+
+.size{
+	width: 160px;
+}
+
+.yacht-video iframe{
+	width: 300px;
+	height: 150px;
+}
+.row2{
+	width: 265px;
+	margin: 0 auto;
+}
+
+
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+	.vehicle-img{
+	width: 430px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
