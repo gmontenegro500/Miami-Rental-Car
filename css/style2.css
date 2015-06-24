@@ -128,12 +128,9 @@ span{
 
 .car-box{
 	margin-top: 40px;
-	min-height: 390px;
-	min-width: 234px;
 	background-color: #ffffff;
 	color: #000;
 	text-align: center;
-	/*float: left;*/
 }
 .car-box h3{
 	margin-top: 15px;
@@ -264,6 +261,20 @@ span{
 	width: 430px;
 	margin-left: auto;
 	margin-right: auto;
+	}
+
 }
 
+@media only screen and (min-width: 450px) and (max-width: 1199px){
+.car-box h3{
+	font-size: 16px;
+	}
+}
+@media only screen and (max-width: 449px){
+.car-box h3{
+	font-size: 14px;
+	}
+	.car-table td{
+	font-size: 12px;
+	}
 }

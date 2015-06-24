@@ -18,15 +18,17 @@ include('inc/header.php'); ?>
 		</div>
 		<h2>CALL US (786)617-6690</h2>
 		<!-- ====== heading starts ====== -->
-		<div class="row">
-			<div class="mbrcu">
-				MIAMI BEACH RENTAL CAR USA
+		<div class="container">
+			<div class="row">
+				<div class="mbrcu col-md-12 col-sm-12 col-xm-12">
+					MIAMI BEACH RENTAL CAR USA
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="header2 col-md-12">
-				Ferrari, Lamborghini, Rolls Royce and more...
-		</div>
+			<div class="row">
+				<div class="header2 col-md-12 col-sm-12 col-xm-12">
+					Ferrari, Lamborghini, Rolls Royce and more...
+				</div>
+			</div>
 		</div>
 		<!-- Cars first block -->
 		<?php include('inc/cars.php');?>
