@@ -18,82 +18,68 @@ include('inc/header.php'); ?>
 		</div>
 		<h2>CALL US (786)617-6690</h2>
 		<!-- ====== heading starts ====== -->
-		<div class="row-s">
+		<div class="row">
 			<div class="mbrcu">
 				MIAMI BEACH RENTAL CAR USA
 			</div>
-		<!-- </div> -->
-		<!-- <div class="row"> -->
+		</div>
+		<div class="row">
 			<div class="header2 col-md-12">
 				Ferrari, Lamborghini, Rolls Royce and more...
-			</div>
+		</div>
 		</div>
 		<!-- Cars first block -->
 		<?php include('inc/cars.php');?>
-		<div class="content container">
-			<div class="row row2">
-				<div class="cars">
-					<ul>
-						<div class="col-md-3 col-sm-4 col-xs-12">
-							<li>
-								<div class="car-box">
-									<img src="images/cars/ferrari.jpg">
-									<h3>Ferrari Italia <br/> 2015</h3>
-									<a href="vehicle.php?id=101"><input class="boton" type="submit" value="BOOK NOW"></input></a>
-									<div class="bottom-line">
-										<div class="price">PRICE:</div>
-										<div class="day">$1499/Day <p>$10493/week</p></div>
-									</div>
-								</div>
-							</li>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="car-box">
+						<img src="images/cars/ferrari.jpg">
+						<h3>Ferrari Italia <br/> 2015</h3>
+						<a href="vehicle.php?id=101"><input class="boton" type="submit" value="BOOK NOW"></input></a>
+						<div class="bottom-line">
+							<div class="price">PRICE:</div>
+							<div class="day">$1499/Day <p>$10493/week</p></div>
 						</div>
-						<div class="col-md-3 col-sm-4 col-xs-12">
-							<li>
-								<div class="car-box">
-									<img src="images/cars/lambo.jpg">
-									<h3>Lamborghini Gallardo <br/> 2015</h3>
-									<a href="vehicle.php?id=102"><input class="boton" type="submit" value="BOOK NOW"></input></a>
-									<div class="bottom-line">
-										<div class="price">PRICE:</div>
-										<div class="day">$1299/Day <p>$9093/week</p></div>
-									</div>
-								</div>
-							</li>
-						</div>
-						<div class="col-md-3 col-sm-4 col-xs-12">
-							<li>
-								<div class="car-box">
-									<img src="images/cars/rr.jpg">
-									<h3>Roll Royce Ghost <br/> 2015</h3>
-									<a href="vehicle.php?id=103"><input class="boton" type="submit" value="BOOK NOW"></input></a>
-									<div class="bottom-line">
-										<div class="price">PRICE:</div>
-										<div class="day">$1399/Day <p>$9793/week</p></div>
-									</div>
-								</div>
-							</li>
-						</div>
-						<div class="col-md-3 col-sm-4 col-xs-12">
-							<li>
-								<div class="car-box">
-									<img src="images/cars/yacht.jpg">
-									<h3>Numarine 78'<br/>Flybridge 2015</h3>
-									<a href="vehicle.php?id=112"><input class="boton" type="submit" value="BOOK NOW"></input></a>
-									<div class="bottom-line">
-										<div class="price">PRICE:</div>
-										<div class="day">$5900/Day <p>$41300/week</p></div>
-									</div>
-								</div>
-							</li>
-						</div>	
-					</ul>
+					</div>
 				</div>
-			<!-- </div> -->
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="car-box">
+							<img src="images/cars/lambo.jpg">
+						<h3>Lamborghini Gallardo <br/> 2015</h3>
+						<a href="vehicle.php?id=102"><input class="boton" type="submit" value="BOOK NOW"></input></a>
+						<div class="bottom-line">
+							<div class="price">PRICE:</div>
+							<div class="day">$1299/Day <p>$9093/week</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6">
+					<div class="car-box">
+						<img src="images/cars/rr.jpg">
+						<h3>Roll Royce Ghost <br/> 2015</h3>
+						<a href="vehicle.php?id=103"><input class="boton" type="submit" value="BOOK NOW"></input></a>
+						<div class="bottom-line">
+							<div class="price">PRICE:</div>
+							<div class="day">$1399/Day <p>$9793/week</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="car-box">
+							<img src="images/cars/yacht.jpg">
+							<h3>Numarine 78'<br/>Flybridge 2015</h3>
+							<a href="vehicle.php?id=112"><input class="boton" type="submit" value="BOOK NOW"></input></a>
+							<div class="bottom-line">
+								<div class="price">PRICE:</div>
+								<div class="day">$5900/Day <p>$41300/week</p></div>
+							</div>
+						</div>
+					</div>
 		<!-- cars second block -->
-			<!-- <div class="row"> -->
 				<div class="cars">
 					<ul>
-						<div class="col-md-3 col-sm-4 col-xs-12">
+						<div class="col-md-3 col-sm-4 col-xs-6">
 							<li>
 								<div class="car-box">
 									<img src="images/cars/r8.jpg">
@@ -106,7 +92,7 @@ include('inc/header.php'); ?>
 								</div>
 							</li>
 						</div>
-						<div class="col-md-3 col-sm-4 col-xs-12">
+						<div class="col-md-3 col-sm-4 col-xs-6">
 							<li>
 								<div class="car-box">
 									<img src="images/cars/mustang.jpg">
@@ -119,7 +105,7 @@ include('inc/header.php'); ?>
 								</div>
 							</li>
 						</div>
-						<div class="col-md-3 col-sm-4 col-xs-12">
+						<div class="col-md-3 col-sm-4 col-xs-6">
 							<li>
 								<div class="car-box">
 									<img src="images/cars/dodge.jpg">
@@ -132,7 +118,7 @@ include('inc/header.php'); ?>
 								</div>
 							</li>
 						</div>
-						<div class="col-md-3 col-sm-4 col-xs-12">
+						<div class="col-md-3 col-sm-4 col-xs-6">
 							<li>
 								<div class="car-box">
 									<img src="images/cars/corolla.jpg">

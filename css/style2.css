@@ -128,8 +128,8 @@ span{
 
 .car-box{
 	margin-top: 40px;
-	height: 336px;
-	width: 234px;
+	min-height: 390px;
+	min-width: 234px;
 	background-color: #ffffff;
 	color: #000;
 	text-align: center;
@@ -146,6 +146,10 @@ span{
 }
 .car-box a{
 	color:#000;
+}
+
+.car-box img{
+	width: 100%;
 }
 .boton{
 	height: 40px;
@@ -258,9 +262,8 @@ span{
 	width: 300px;
 	height: 150px;
 }
-.row2{
-	width: 265px;
-	margin: 0 auto;
+.row div{
+	text-align: center;
 }
 
 
