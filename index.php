@@ -110,11 +110,11 @@ include('inc/header.php'); ?>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-4 col-xs-6">
-						<div class="car-box">
-							<img src="images/cars/yacht.jpg">
-							<h3>Numarine 78'<br/>Flybridge 2015</h3>
-							<a href="vehicle.php?id=112"><input class="boton" type="submit" value="BOOK NOW"></input></a>
-							<div class="bottom-line">
+					<div class="car-box">
+						<img src="images/cars/yacht.jpg">
+						<h3>Numarine 78'<br/>Flybridge 2015</h3>
+						<a href="vehicle.php?id=112"><input class="boton" type="submit" value="BOOK NOW"></input></a>
+						<div class="bottom-line">
 							<table class="car-table">
 								<tr>
 									<td>
@@ -131,7 +131,7 @@ include('inc/header.php'); ?>
 									</td>
 								</tr>
 							</table>
-						</div>
+						</div>	
 					</div>
 				</div>
 		<!-- cars second block -->
