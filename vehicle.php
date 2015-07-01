@@ -1,5 +1,5 @@
-<?php include("inc/cars.php");
-
+<?php
+include('inc/cars.php');
 if (isset($_GET["id"])) {
 	$car_id = $_GET["id"];
 	if (isset($cars[$car_id])) {
@@ -10,7 +10,6 @@ if (!isset($car)) {
 	header("Location: vehicles.php");
 	exit();
 }
-
 $section = "vehicle";
 $pageTitle = $car["name"];
 
@@ -20,9 +19,8 @@ include('inc/header.php'); ?>
 		<div class="vehicle-img col-md-6">
 			<img src="<?php echo $car['img'];?>">
 		</div>
-		<div class="reservation col-md-6">
-		<?php include('inc/validate.php');?>	
-		<form id="contactform" method="post" action="" novalidate>
+		<div class="reservation col-md-6">	
+		<form action="vehicle.php">
 			<div class="field size">
 				<label for="pickuplocation">Pick-up location:</label>
 				<select name="pick-up location" id="pickuplocation">
@@ -116,7 +114,7 @@ include('inc/header.php'); ?>
 							<label>Loss damage waiver</label>
 						</td>
 						<td>
-							<p>$20/day</p>
+							<p>$23/day</p>
 						</td>	
 					</tr>
 					<tr>
@@ -160,7 +158,7 @@ include('inc/header.php'); ?>
 							<label>Additional driver</label>
 						</td>
 						<td>
-							<p>$15/day</p>
+							<p>$20/day</p>
 						</td>	
 					</tr>	
 				</tbody>
@@ -178,12 +176,46 @@ include('inc/header.php'); ?>
 							<p><?php echo "$".$car["price"]."/day"; ?></p>
 						</td>	
 					</tr>
+					<!-- If the driver is under age, charge the driver -->
 					<!-- <tr>
 						<td>
 							<label>Underage driver</label>
 						</td>
 						<td>
-							<p>$0/day</p>
+							<p>$20/day</p>
+						</td>	
+					</tr> -->
+
+					<!-- If drop off location is different from pick up location, charge the customer $20 -->
+
+					<!-- <tr>
+						<td>
+							<label>Pick-up/Drop-off charge (if different)</label>
+						</td>
+						<td>
+							<p>$20/day</p>
+						</td>	
+					</tr> -->
+
+					<!-- sub-total -->
+
+					<!-- <tr>
+						<td>
+							<label>Sub-total</label>
+						</td>
+						<td>
+							<p>?</p>
+						</td>	
+					</tr> -->
+
+					<!-- Sale tax is 7% of the sub-total-->
+
+					<!-- <tr>
+						<td>
+							<label>Sale tax</label>
+						</td>
+						<td>
+							<p>7%</p>
 						</td>	
 					</tr> -->
 					<tr>
@@ -199,21 +231,10 @@ include('inc/header.php'); ?>
 		</div>
 		<div class="submit col-md-4">
 			<h3>Send your request</h3>
-			<!-- <form action="index.php"> -->
 				<table>
 					<tbody>
 					<tr>
 						<td>
-							<?php
-								if($sent === true){
-								echo"Thanks, your reservation was sent.";
-								}elseif($hasError === true){
-									foreach ($errorArray as $key => $val) {
-										echo ucfirst($key)."field error - $val";
-									}
-									
-								}
-							?>
 							<label>First Name:</label>
 							<input type="text" name="fname" value="<?php echo (isset($fname) ? $fname : ""); ?>" placeholder="Your Name"style="width:90%">
 						</td>
@@ -249,37 +270,6 @@ include('inc/header.php'); ?>
 						</tr>
 					</tbody>
 				</table>
-				<!-- <div class="send">
-					<div class="send-p">
-						<label>First Name:</label>
-						<input type="text">
-					</div>
-					<div class="send-p">
-						<label>Last Name:</label>
-						<input type="text">
-					</div>
-				</div>
-				<div class="send">
-					<div class="send-p">
-						<label>Phone:</label>
-						<input type="text">
-					</div>
-					<div class="send-p">
-						<label>Email:</label>
-						<input type="text">
-					</div>
-				</div>
-				<div class="send">
-					<div class="send-p com">
-						<label>Comments:</label>
-						<input type="text">
-					</div>
-				</div>
-				<div class="send">
-					<div>
-						<button type="submit" class="boton">SEND</button>
-					</div>
-				</div> -->
 			</div> 
 		</form>	
 	</div>
